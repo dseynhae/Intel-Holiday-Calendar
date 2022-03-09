@@ -13,10 +13,10 @@
 
    5. Import, close `Add Calendar` popup.
 
-⚠️ A web calendar needs to be accessible from a public URL.
+   ⚠️ A web calendar needs to be accessible from a public URL.
 
- This will NOT work when using a 1Source Sandbox repository (the URL is still internal)!
-
-The internal URL <http://phonebook.intel.com/cgi-bin/phonecal?e=> doesn't work for that; Therefore, the different region calendars are copied from this internal location, to a this WAN-accessible URL.
+* This will NOT work when using a 1Source Sandbox repository (the URL is still internal)!
+* The source URL (<http://phonebook.intel.com/cgi-bin/phonecal?e=>) also won't work;
+    Therefore, the different region calendars are copied from this internal location, to the WAN-accessible URL in GitHub.
 
 This repository holds all the components to make this happen.

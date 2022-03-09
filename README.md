@@ -3,9 +3,9 @@
 👉 Synchronized web calendars with Intel Holidays for various regions.
 
 1. Go to <https://outlook.office.com/calendar/view/week>.
-2. Click on `Add Calendar` instruction.
-3. Select `Subscribe from web` tab.
-4. Provide URL and configure the web calendar.
+2. Click on the `Add Calendar` instruction in the Left Pane.
+3. Select the `Subscribe from web` tab in the popup.
+4. Provide the web calendar URL and configure GUI settings.
 
    ```url
    https://github.com/dseynhae/Intel-Holiday-Calendar/blob/main/Intel-Holidays-UNITED-STATES.ics
@@ -23,7 +23,7 @@
 
    * This will NOT work when using a 1Source Sandbox repository (the URL is still internal)!
 
-5. Import, close `Add Calendar` popup.
+5. Import, close the `Add Calendar` popup.
 
 ---
 

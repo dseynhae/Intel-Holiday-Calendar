@@ -1,0 +1,41 @@
+#!/bin/bash
+# sync_intel_ics
+
+cd /p/psg/swip/w/dseynhae/dev/github/dseynhae.intel-web-calendar || return 2
+
+declare -a regions
+
+regions=(
+	CANADA
+	CHINA
+	COSTA20%RICA
+	FINLAND
+	FRANCE
+	GERMANY
+	INDIA
+	IRELAND
+	ISRAEL
+	JAPAN
+	MALAYSIA
+	MEXICO
+	NETHERLANDS
+	POLAND
+	ROMANIA
+	RUSIA
+	SINGAPORE
+	SOUTH%20KOREA
+	TAIWAN
+	UNITED%20KINGDOM
+	UNITED%20STATES
+	VIETNAM
+)
+
+for r in "${regions[@]}"; do
+	url=http://phonebook.fm.intel.com/ww/ics/Intel-Holidays-${r}.ics
+	# Replace space (%20) from URL to dash (-) in file name
+	file=Intel-Holidays-${r/\%20/-}.ics
+	curl "$url" -o "$file"
+done
+
+git commit -a -m "Sync: $(date)"
+git push

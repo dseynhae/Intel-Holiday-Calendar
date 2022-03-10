@@ -8,7 +8,7 @@ declare -a regions
 regions=(
 	CANADA
 	CHINA
-	COSTA20%RICA
+	COSTA%20RICA
 	FINLAND
 	FRANCE
 	GERMANY

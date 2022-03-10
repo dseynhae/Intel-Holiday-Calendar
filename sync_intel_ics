@@ -37,5 +37,6 @@ for r in "${regions[@]}"; do
 	curl "$url" -o "$file"
 done
 
+git status
 git commit -a -m "Sync: $(date)"
 git push

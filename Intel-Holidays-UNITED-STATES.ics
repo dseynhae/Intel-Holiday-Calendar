@@ -2,8 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Intel Corporation//phonebook.fm.intel.com//EN
 URL:https://phonebook.fm.intel.com/cgi-bin/phonecal
-SOURCE;VALUE=URI:https://phonebook.fm.intel.com/ww/ics/Intel-Holidays-
-	UNITED%20STATES.ics
+SOURCE;VALUE=URI:https://raw.githubusercontent.com/dseynhae/Intel-Holiday-Calendar/main/Intel-Holidays-UNITED-STATES.ics
 NAME:Intel Holidays UNITED STATES
 X-WR-CALNAME:Intel Holidays UNITED STATES
 DESCRIPTION:Intel Holidays UNITED STATES by phonebook.fm.intel.com
